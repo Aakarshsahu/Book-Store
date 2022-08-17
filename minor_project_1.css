@@ -1,0 +1,293 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    /* height: 100%; */
+    /* width: 100%; */
+}
+
+.nav{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+#navmid{
+    height: 30px;
+    width: 30px;
+}
+
+#navlast{
+    
+    margin-right: 30px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+
+#search{
+    height: 20px;
+    width: 20px;
+}
+
+#navmidimage{
+    
+    height: 40px;
+    width: 30px;
+}
+
+#navlastimage{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    
+    
+}
+
+hr{
+    margin-top: 15px;
+}
+
+#navdiv{
+    
+    display: flex;
+    width: 130px;
+    height: 30px;
+    margin-left: 30px;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: rgb(158, 149, 149);
+    font-weight: bold;
+    
+    
+}
+
+#navdiv input{
+    border: none;
+    margin-left: 10px;
+}
+
+#for{
+    margin-left: 50px;
+    margin-top: 5px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+
+
+#face_two{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+    gap: 20px;
+    
+    
+}
+#face_two::-webkit-scrollbar{
+    display: none;
+  }
+
+.face2_div1{
+    flex-shrink: 0;
+    width: 450px;
+    height: 230px;
+background-color: skyblue;
+border-radius: 5%;
+display: flex;
+align-items: center;
+
+}
+
+#face2_div2{
+    flex-shrink: 0;
+    width: 450px;
+    height: 230px;
+    background-color:rgb(195, 109, 232);
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+#face2_div3{
+    flex-shrink: 0;
+    width: 450px;
+    height: 230px;
+    background-color: rgb(255, 157, 190);
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.book1{
+    width: 200px;
+    height: 210px;
+    margin-left: 20px;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+    border-radius: 5%;
+}
+
+.star{
+    width: 120px;
+}
+
+.icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.f2d2{
+    margin-left: 15px;
+    line-height: 30px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.inlineicon{
+    display: flex;
+    width: 130px;
+    justify-content: space-around;
+
+}
+.number{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+    color:skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.face_3{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right:320px ;
+    font-family: sans-serif;
+    margin-top:40px ;
+}
+
+.face_4{
+    margin-top: 20px;
+    margin-left: 40px;
+    display: flex;
+    position: absolute;
+    width: 60%;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+.smallbookdiv{
+    display: flex;
+    
+}
+
+.smalltheori{
+    margin-left: 20px;
+    line-height: 30px;
+    font-family: sans-serif;
+}
+
+
+
+.smallbook{
+    width: 80px;
+    height: 125px;
+    border-radius: 5%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+
+.smallstar{
+    width: 100px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.lasticons{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+
+.lastitems{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    line-height: 50px;
+    
+}
+
+.extra{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+.backdiv{
+    
+    width: 300px;
+    margin-left: 73%;
+    padding-top: 10px;
+    /* position: absolute; */
+    /* bottom: 20px; */
+    /* right: 100px; */
+    /* background-color: red; */
+}
+
+.pera{
+    margin-left: 20px;
+}
+
+.smallbook:hover{
+    width: 85px;
+    height: 125px;
+    cursor: pointer;
+}
+
+.name{
+    margin-right: 5px;
+}
+
+#problem1{
+    
+}
+
+.book1:hover{
+    cursor: pointer;
+    width: 220px;
+    height: 230px;
+}
+
+.lasticons:hover{
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+}
+
+#pro3{
+    line-height: 21.5px;
+}
+
